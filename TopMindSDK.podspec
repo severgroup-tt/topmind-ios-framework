@@ -12,5 +12,5 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => 'https://github.com/severgroup-tt/topmind-ios-framework.git', :tag => spec.version.to_s }
   spec.ios.deployment_target = '9.0'
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "./**/*.{h,m}"
 end
