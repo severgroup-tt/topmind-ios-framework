@@ -7,6 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TopMind.h"
+#import "TopMindSDK.h"
+#import "TopMindDefs.h"
+#import "DeviceInfo.h"
 
 //! Project version number for topmind_sdk.
 FOUNDATION_EXPORT double topmind_sdkVersionNumber;
