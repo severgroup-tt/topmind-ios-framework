@@ -1,0 +1,6 @@
+framework module topmind_sdk {
+  umbrella header "topmind_sdk.h"
+
+  export *
+  module * { export * }
+}
