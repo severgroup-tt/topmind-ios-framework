@@ -1,11 +1,3 @@
-//
-//  topmind_sdk.h
-//  topmind-sdk
-//
-//  Created by Kirill Gudkov on 29/07/2019.
-//  Copyright © 2019 talenttech. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 #import "TopMind.h"
 #import "TopMindSDK.h"
