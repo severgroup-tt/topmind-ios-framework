@@ -12,6 +12,6 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :http => 'https://github.com/severgroup-tt/topmind-ios-framework/releases/download/0.0.1/topmind_sdk.zip' }
   spec.ios.deployment_target = '9.0'
-  spec.public_header_files = 'topmind_sdk.framework/Headers'
+  spec.public_header_files = 'topmind_sdk.framework/Headers/*.h'
   spec.vendored_frameworks = 'topmind_sdk.framework'
 end
