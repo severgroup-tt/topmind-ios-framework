@@ -1,4 +1,3 @@
-#import <UIKit/UIKit.h>
 #import "TopMind.h"
 #import "TopMindSDK.h"
 #import "TopMindDefs.h"
