@@ -15,7 +15,7 @@ Then run `pod install`
 
 ## Usage
 
-```
+``` objective-c
 #import <topmind_sdk/topmind_sdk.h>
 
 /**
