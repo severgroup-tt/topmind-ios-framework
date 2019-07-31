@@ -9,6 +9,16 @@ Just add pod  `pod 'TopMindSDK'` into your Podfile.
 
 Then run `pod install`
 
+add
+```
+<key>TopMindClientId</key>
+<string>your_client_id</string>
+<key>TopMindApiKey</key>
+<string>your_api_key</string>
+```
+
+to info.plist
+
 ## Usage
 
 ``` objective-c
