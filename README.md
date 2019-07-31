@@ -5,11 +5,7 @@
 
 CocoaPods
 
-Just add pod 
-
-`pod 'TopMindSDK', :git => 'https://github.com/severgroup-tt/topmind-ios-framework', :branch => 'master'`
-
-into your Podfile.
+Just add pod  `pod 'TopMindSDK'` into your Podfile.
 
 Then run `pod install`
 
