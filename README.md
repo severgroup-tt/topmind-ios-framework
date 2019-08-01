@@ -1,6 +1,8 @@
 
 # Topmind SDK
 
+[![Pod version](https://badge.fury.io/co/TopMindSDK.svg)](https://badge.fury.io/co/TopMindSDK)
+
 ## Installation
 
 CocoaPods
