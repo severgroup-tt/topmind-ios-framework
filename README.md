@@ -1,7 +1,7 @@
 
 # Topmind SDK
 
-## Getting started
+## Installation
 
 CocoaPods
 
@@ -26,8 +26,8 @@ to info.plist
 
 /**
 * Use it to send event to TopMind.
-* @param name event's name: "menu click" f.e
-* @param eventData NSDictionary with data {myParam: "myValue"} f.e
+* @param name event's name: "menu click" e.g
+* @param eventData NSDictionary with data {myParam: "myValue"} e.g
 */
 - (void)logEvent:(NSString*) name withEventProperties:(NSDictionary*) eventData;
 
@@ -39,7 +39,7 @@ to info.plist
 - (void)setUserId:(NSString*) userId;
 
 /**
-* It removes all persisted TopMind data (userId f.e)
+* It removes all persisted TopMind data (userId e.g)
 */
 - (void)logout;
 
