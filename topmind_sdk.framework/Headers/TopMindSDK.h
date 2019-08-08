@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-#import "TopMindDefs.h"
+#import "TopMindDefaults.h"
 #import "DeviceInfo.h"
 
 NS_ASSUME_NONNULL_BEGIN
@@ -9,13 +9,13 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSMutableDictionary *eventData;
 @property (nonatomic, strong, readonly) NSString *apiKey;
 @property (nonatomic, strong, readonly) NSString *clientId;
-@property (nonatomic, strong, readonly) TopMindDefs *defaults;
+@property (nonatomic, strong, readonly) TopMindDefaults *defaults;
 @property (nonatomic, strong, readonly) DeviceInfo *deviceInfo;
 
 /**
  * Use it to send event to TopMind.
- * @param name event's name: "menu click" f.e
- * @param eventData Map with data {myParam: "myValue"} f.e
+ * @param name - event's name: "Button pressed" e.g
+ * @param eventData - NSDictionary with properties @{ @"myParam": @"myValue" } e.g
  */
 
 - (void)logEvent:(NSString*) name withEventProperties:(NSDictionary*) eventData;
@@ -23,12 +23,12 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Use it to persist user identifier
  * It will be passed through all events as userId value
- * @param userId your user id
+ * @param userId - your user id
  */
 - (void)setUserId:(NSString*) userId;
 
 /**
- * It removes all persisted TopMind data (userId f.e)
+ * It removes all persisted TopMind data (userId e.g)
  */
 - (void)logout;
 
@@ -36,6 +36,16 @@ NS_ASSUME_NONNULL_BEGIN
  * Sends event that app has started
  */
 - (void)applicationStarted;
+
+/**
+ * Returns the current install id
+ */
+- (NSString *)getInstallId;
+
+/**
+ * Returns true if the application was launched for the first time
+ */
+- (BOOL)isFirstRun;
 
 @end
 

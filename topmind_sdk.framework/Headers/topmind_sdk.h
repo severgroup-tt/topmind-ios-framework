@@ -1,7 +1,4 @@
-#import "TopMind.h"
 #import "TopMindSDK.h"
-#import "TopMindDefs.h"
-#import "DeviceInfo.h"
 
 FOUNDATION_EXPORT double topmind_sdkVersionNumber;
 
