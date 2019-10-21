@@ -43,6 +43,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSString *)getInstallId;
 
 /**
+ * Returns the current sid_long
+ */
+- (NSString *)getSidLong;
+
+/**
  * Returns true if the application was launched for the first time
  */
 - (BOOL)isFirstRun;
