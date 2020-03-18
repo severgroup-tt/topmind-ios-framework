@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, readonly) NSString *clientId;
 @property (nonatomic, strong, readonly) TopMindDefaults *defaults;
 @property (nonatomic, strong, readonly) DeviceInfo *deviceInfo;
+@property (nonatomic, strong) NSString *userAgent;
 
 /**
  * Use it to send event to TopMind.

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TopMindSDK"
-  spec.version      = "0.0.10"
+  spec.version      = "0.0.11"
   spec.summary      = "SDK for Topmind analytics"
   spec.description  = <<-DESC
                         iOS framework for Topmind analytics integration
